@@ -1,0 +1,75 @@
+.body {
+    margin: 0;
+    background: whitesmoke;
+    color: #1c1c1c;
+    font-family: Arial, sans-serif;
+}
+.logo-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    color: white;
+    position: absolute;
+    top: 55px;
+}
+.header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11% 5%;
+    background: #15202B;
+}
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 12%;
+    top: 70px;
+}
+.social-icons {
+    position: absolute;
+    margin-top: 20px;
+    text-align: right;
+    padding: 20px 0;
+    right: 320px;
+    top: 1px;
+    width: 150px;
+    height: auto;
+    display: flex;
+    gap: 15px;
+}
+.social-img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s;
+}
+.flower {
+    margin-top: 200px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+}
+
+.flower-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.category1 {
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 800;
+}
